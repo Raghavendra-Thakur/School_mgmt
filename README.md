@@ -16,13 +16,13 @@ Add Student , Update Student and Delete student
     After Downloading the eclipse Start installation by locating installer in your download folder
      
      staller choose Eclipse IDE for Enterprise Java and Web Developers
+![Screenshot from 2022-11-24 18-52-52](https://user-images.githubusercontent.com/114403369/203810821-30901da3-034a-4155-9f12-98077fc85fe4.png)
 
   
      after installing eclipse go to files there is oprion open project from file system
        on clicking that choose com.schoolmanagment folder from repositery download it will 
        open the project in eclipse
     
-   [Screencast from 24-11-22 07:37:01 PM IST.webm](https://user-images.githubusercontent.com/114403369/203806522-f1954c27-6f91-4348-afd4-6a45e6e030ce.webm)
 
 
 
@@ -91,7 +91,7 @@ Add Student , Update Student and Delete student
 
   **Known bugs**
 
-      1. you cant enter 10 digit phone no in phone no section 
+      1. you cant enter 10 digit phone no in phone no section enter 4 digit for now 
 
 
 
