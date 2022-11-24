@@ -45,21 +45,23 @@ Add Student , Update Student and Delete student
 
  **Step 3**
 
-    Now download MySql Workbench from below link 
+    Now download MySql Installer from below link 
+    
+   https://dev.mysql.com/downloads/installer/
+    
+    after downloading start installation and choose server and workbench from option
+    you can watch video on folliwing link
+    
+    
+   https://www.youtube.com/watch?v=Rxp3T5GKlR4
 
-   https://dev.mysql.com/downloads/workbench/
+ 
 
     again you can choose your operating system in given option
 
    ![Screenshot from 2022-11-24 19-21-40](https://user-images.githubusercontent.com/114403369/203806405-505eab25-c50b-4eaf-8020-61a448de9685.png)
 
-    
-    
-
-    you can watch this video if gets stuck anywhere
-
-   https://www.youtube.com/watch?v=Rxp3T5GKlR4
-
+   
 
     after installing mysql work bench and server
 
