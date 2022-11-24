@@ -34,7 +34,7 @@ Add Student , Update Student and Delete student
 
     after that select as per your operating system if using windows 11 64 bit choose 64-bit Windows zip
 
-     ![Screenshot from 2022-11-24 19-11-02](https://user-images.githubusercontent.com/114403369/203806301-467855b9-38a6-498a-bb83-90689d9e1ba0.png)
+  ![Screenshot from 2022-11-24 19-11-02](https://user-images.githubusercontent.com/114403369/203806301-467855b9-38a6-498a-bb83-90689d9e1ba0.png)
 
 
     now in opening eclipse there you can add tomcat server in server tab by seeeing below video
