@@ -1,5 +1,3 @@
-
-
 # School Management System
 
 School Management System is a simple CRUD operation program where Admin can 
@@ -14,9 +12,9 @@ Add Student , Update Student and Delete student
 
  - This is web-app created using servlet jsp and mySql as database
 
-- for runnibg this web-app we need IDE for that we are using eclipse
+- for runing this web-app we need IDE for that we are using eclipse
 
-- it also requres server so we are using tomcat version 9 
+- it also requires server so we are using tomcat version 9 
 
  **Step 2**
 
@@ -46,11 +44,12 @@ after installing eclipse
 open the project in eclipse
 
 
-adding project video   
+ 
+[adding-project.webm](https://user-images.githubusercontent.com/114403369/203860124-f76d2838-cdee-4992-b212-cea754e01cef.webm)
 
 
 
-**Step 2**
+**Step 3**
 
 Apache Tomcat v9 from below link
 
@@ -65,53 +64,57 @@ after that select as per your operating system if using windows 11 64 bit choose
 
 - in server tab there is option for adding tomcat server click on that it will open New server window
 
-- Choose apache in apache choose apache 9 then press next 
+- Choose apache in apache choose apache 9 then press next click on add 
+
+- after in the window select tomacat installation directory
+
+- choose the folder from repositery named as apache-tomcat-9 or you can download from above link
 
 
+[tomcatsetup.webm](https://user-images.githubusercontent.com/114403369/203860203-42ef3b5e-3b55-4674-b090-26d9a3f55f21.webm)
 
 
- **Step 3**
+ **Step 4**
 
 Now download MySql Installer from below link 
     
    https://dev.mysql.com/downloads/installer/
     
 after downloading start installation and choose server and workbench from option
-you can watch video on folliwing link
-    
-    
-   https://www.youtube.com/watch?v=Rxp3T5GKlR4
 
- 
+note:- **please enter username and password as 'root'
+and host as localhost**
 
-again you can choose your operating system in given option
-
-   ![Screenshot from 2022-11-24 19-21-40](https://user-images.githubusercontent.com/114403369/203806405-505eab25-c50b-4eaf-8020-61a448de9685.png)
-
-   
+if your changing the username and password changes should be made in DAO package
 
 after installing mysql work bench and server
 
-opening workbench you can server tab by clicking on that 
-you will see  import data option opening that 
-you can see window where you have to choose folder
-i have provided sql  school folder in repositery choose that and import 
-it will import all the table needed for work
+
+- create one schema name as 'school'
+
+- after creating scemaa set that schema as default
+
+- after that go to server option and click on import data
+
+- in that select school folder from repositery by doing this it will import admin and student table in database
+
+- here you have successfully done my sql setup
 
 
- **Step 4**
+[mysqlsetup.webm](https://user-images.githubusercontent.com/114403369/203860255-2408a41c-52d7-44a9-bf6a-9fcae8f70e58.webm)
 
-After completing all the step open project and navigate to 
-com.schoolmanagment => src => main => webapp => admin-login.jsp
 
-right click on admin-login.jsp and click run as then you can se option run on server
+ **Step 5**
 
-it will open in default browser 
+- After completing all the steps please go open the eclispse
 
-And you can use
+- There navigate to com.SchoolManagement/src/main/webapp/admin-login.jsp
 
-admin username = root
-admin password = root
+- after that right click on **admin-login.jsp** and in run as there is a run on server option
+
+- then app will open on default browser
+
+[runningwebapp.webm](https://user-images.githubusercontent.com/114403369/203860273-7c32d317-a7fb-4ad9-8edb-40314e9dcd80.webm)
 
 
 ## Disclaimer
