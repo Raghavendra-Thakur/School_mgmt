@@ -7,7 +7,7 @@ Add Student , Update Student and Delete student
 
 ## Setting Up Project
 
-    **Step 1**
+ **Step 1**
 
     Download Eclipse IDE from below link
 
@@ -15,18 +15,18 @@ Add Student , Update Student and Delete student
 
     After Downloading the eclipse Start installation by locating installer in your download folder
      
-     staller choose Eclipse IDE for Enterprise Java and Web Developers
+     installer choose Eclipse IDE for Enterprise Java and Web Developers
 ![Screenshot from 2022-11-24 18-52-52](https://user-images.githubusercontent.com/114403369/203810821-30901da3-034a-4155-9f12-98077fc85fe4.png)
 
   
-     after installing eclipse go to files there is oprion open project from file system
+     after installing eclipse go to files there is option open project from file system
        on clicking that choose com.schoolmanagment folder from repositery download it will 
        open the project in eclipse
     
 
 
 
-    **Step 2**
+ **Step 2**
 
     Apache Tomcat v9 from below link
 
@@ -43,7 +43,7 @@ Add Student , Update Student and Delete student
 
     follow the steps given in the video insted of tomcat 8 choose 9 that privously downloaded
 
-    **Step 3**
+ **Step 3**
 
     Now download MySql Workbench from below link 
 
@@ -70,7 +70,7 @@ Add Student , Update Student and Delete student
     it will import all the table needed for work
 
 
-    **Step 4**
+ **Step 4**
 
     After completing all the step open project and navigate to 
     com.schoolmanagment => src => main => webapp => admin-login.jsp
