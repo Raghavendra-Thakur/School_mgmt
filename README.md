@@ -17,12 +17,6 @@ Add Student , Update Student and Delete student
      
      staller choose Eclipse IDE for Enterprise Java and Web Developers
 
-    
-  
-
- After opening in![Screenshot from 2022-11-24 18-52-52](https://user-images.githubusercontent.com/114403369/203806159-6cc22906-2231-4c0c-b6e0-ce285396ce0b.png)
-
-  
   
      after installing eclipse go to files there is oprion open project from file system
        on clicking that choose com.schoolmanagment folder from repositery download it will 
@@ -74,13 +68,6 @@ Add Student , Update Student and Delete student
     you can see window where you have to choose folder
     i have provided sql  school folder in repositery choose that and import 
     it will import all the table needed for work
-
-
-
-
-   [Screencast from 24-11-22 07:34:13 PM IST.webm](https://user-images.githubusercontent.com/114403369/203806454-9f921d5e-98a8-499f-8c83-0aaba31d0587.webm)
-
-
 
 
     **Step 4**
