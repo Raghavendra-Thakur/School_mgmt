@@ -16,7 +16,7 @@ import com.SchoolManagement.DTO.student;
 public class AdminDao {
 	private String url = "jdbc:mysql://localhost:3306/school";
 	private String user = "root";
-	private String password = "root1234";
+	private String password = "root";
 	Connection connection;
 
 	public boolean adminlogin(Admin admin) {
