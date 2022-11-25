@@ -26,6 +26,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 
+
 </head>
 
 <body style="background: linear-gradient(90deg, rgba(236,89,70,1) 0%, rgba(232,209,112,1) 100%);">
@@ -44,7 +45,7 @@
         <div class="row flex-nowrap">
             <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-transparent">
                 <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
-                    <a href="/"
+                    <a href="#"
                         class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
                         <span class="fs-5 d-none d-sm-inline">Menu</span>
                     </a>
@@ -72,49 +73,52 @@
             </div>
             <div class="col py-3">
                 <br>
-                <section id="insertforn" style="max-width: 30rem; display: block;">
+                <section id="insertforn" style="max-width: 30rem; display: block;" >
                     <h1>STUDENT INSERT FORM</h1>
-                    <form action="insert" method="post">
+                    <form name="form1" action="insert" method="post" onsubmit="return(validate())">
                         <div class="form-group">
                             <label for="exampleInputEmail1">Roll No</label>
-                            <input type="text" class="form-control" placeholder="Enter Roll NO." name="rno">
-
+                            <input type="text" class="form-control" placeholder="Enter Roll NO." name="rno" required pattern="[0-9]+">
+							<span >Enter numbers only </span>
                         </div>
                         <br>
                         <div class="form-group">
                             <label>Student Name</label>
-                            <input type="text" class="form-control" placeholder="Name" name="name">
+                            <input type="text" class="form-control" placeholder="Name" name="name" required pattern="[a-zA-Z ]+">
+                            	<span >Enter Alphabets only </span>
                         </div>
                         <br>
                         <div class="form-group">
                             <label>Student Phone No</label>
-                            <input type="text" class="form-control" placeholder="Phone No" name="pno">
+                            <input type="text" class="form-control" placeholder="Phone No" name="pno" required pattern="[0-9]+">
+                       		<span >Enter numbers only </span>
                         </div>
                         <br>
                         <div class="form-group">
                             <label for="exampleInputEmail1">Email address</label>
                             <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp" placeholder="Enter email" name="email">
+                                aria-describedby="emailHelp" placeholder="Enter email" name="email" required>
                         </div>
                         <br>
 
                         <div class="form-group">
-                            <label for="exampleInputEmail1">Date Of Birth</label>
-                            <input type="date" class="form-control" name="dob">
+                            <label >Date Of Birth</label>
+                            <input type="date" class="form-control" name="dob" required>
                         </div>
                         <br>
                         <div class="custom-control custom-radio custom-control-inline">
                             <input type="radio" id="customRadioInline1" name="gender" class="custom-control-input mr-5"
-                                value="male">
+                                value="male" required>
                             <label class="custom-control-label" for="customRadioInline1">Male</label>
                             <input type="radio" id="customRadioInline2" name="gender" class="custom-control-input ms-5"
-                                value="female">
+                                value="female" required>
                             <label class="custom-control-label" for="customRadioInline2">Female</label>
                         </div>
                         <br>
                         <div class="form-group">
                             <label>Address</label>
-                            <input type="text" class="form-control" placeholder="Address" name="ads">
+                            <input type="text" class="form-control" placeholder="Address" name="ads" required>
+                       		<span class="formerror"> </span>
                         </div>
                         <br>
 
@@ -123,38 +127,40 @@
                 </section>
                 <section id="updateform" style="max-width: 30rem; display: none;">
                     <h1>STUDENT UPDATE FORM</h1>
-                    <form action="update" method="post">
+                    <form name="form2" action="update" method="post" onsubmit="return(validate1())">
                         <div class="form-group">
                             <label for="exampleInputEmail1">Roll No Of Student To be Updated</label>
-                            <input type="text" class="form-control" placeholder="Enter Roll NO." name="rno">
-
+                            <input type="text" class="form-control" placeholder="Enter Roll NO." name="rno" required pattern="[0-9]+">
+							<span >Enter numbers only </span>
                         </div>
                         <br>
                         <div class="form-group">
                             <label>Student Name</label>
-                            <input type="text" class="form-control" placeholder="Name" name="name">
+                            <input type="text" class="form-control" placeholder="Name" name="name" required pattern="[a-zA-Z ]+">
+                       		<span >Enter Alphabets only </span>
                         </div>
                         <br>
                         <div class="form-group">
                             <label>Student Phone No</label>
-                            <input type="text" class="form-control" placeholder="Phone No" name="pno">
+                            <input type="text" class="form-control" placeholder="Phone No" name="pno" required pattern="[0-9]+">
+                            <span >Enter numbers only </span>
                         </div>
                         <br>
                         <div class="form-group">
                             <label for="exampleInputEmail1">Email address</label>
                             <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp" placeholder="Enter email" name="email">
+                                aria-describedby="emailHelp" placeholder="Enter email" name="email" required>
                         </div>
                         <br>
 
                         <div class="form-group">
                             <label for="exampleInputEmail1">Date Of Birth</label>
-                            <input type="date" class="form-control" name="dob">
+                            <input type="date" class="form-control" name="dob" required>
                         </div>
                         <br>
                         <div class="custom-control custom-radio custom-control-inline">
                             <input type="radio" id="customRadioInline1" name="gender" class="custom-control-input mr-5"
-                                value="male">
+                                value="male" required>
                             <label class="custom-control-label" for="customRadioInline1">Male</label>
                             <input type="radio" id="customRadioInline2" name="gender" class="custom-control-input ms-5"
                                 value="female">
@@ -163,7 +169,7 @@
                         <br>
                         <div class="form-group">
                             <label>Address</label>
-                            <input type="text" class="form-control" placeholder="Address" name="ads">
+                            <input type="text" class="form-control" placeholder="Address" name="ads" required>
                         </div>
                         <br>
 
@@ -239,7 +245,7 @@
         </div>
     </div>
 
-
+	   <script src="asset/validation.js"></script>
 
     <script>
         function displayf1() {
@@ -270,7 +276,11 @@
             var z = document.getElementById("updateform");
             z.style.display = "none";
         }
+        
+        
     </script>
+    
+   	
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
